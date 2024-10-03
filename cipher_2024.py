@@ -44,5 +44,5 @@ cipher_table = create_cipher_table()
 text_to_encrypt = "HELLO WORLD"
 encrypted_text = encrypt(text_to_encrypt, cipher_table)
 
-print(f"Ursprünglicher Text: {text_to_encrypt}")
-print(f"Verschlüsselter Text: {encrypted_text}")
+print(f"Original Text: {text_to_encrypt}")
+print(f"Cipher text: {encrypted_text}")
