@@ -1,5 +1,4 @@
 def create_cipher_table():
-    # Erstellen der Chiffriertabelle mit Emojis
     cipher_table = {
         'A': '🥇',
         'B': '🚀',
@@ -39,7 +38,6 @@ def encrypt(text, cipher_table):
         encrypted_text += cipher_table.get(char, char)  
     return encrypted_text
 
-# Beispielnutzung
 cipher_table = create_cipher_table()
 text_to_encrypt = "HELLO WORLD"
 encrypted_text = encrypt(text_to_encrypt, cipher_table)
